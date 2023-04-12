@@ -110,7 +110,7 @@ body {
 
 .contact .list {
   display: flex;
-
+  padding: 24px 0;
   gap: 40px;
 }
 
