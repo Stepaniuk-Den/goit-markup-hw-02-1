@@ -85,7 +85,7 @@ body {
 }
 
 .nav .list {
-  margin-left: 76px;
+  /* margin-left: 76px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -115,6 +115,7 @@ body {
 }
 
 .logo {
+  margin-right: 76px;
   color: var(--alt-secondary-color-text);
 
   text-decoration: none;
