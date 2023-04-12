@@ -70,9 +70,10 @@ body {
 .header .container {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
+  align-items: center;
 }
 
-.container-nav {
+.nav {
   display: flex;
 }
 
@@ -260,7 +261,7 @@ body {
 
 /* Footer */
 .footer {
-  padding: 101.5px 0 100px 0;
+  padding: 100px 0 100px 0;
   background-color: var(--secondary-color-text);
 }
 
