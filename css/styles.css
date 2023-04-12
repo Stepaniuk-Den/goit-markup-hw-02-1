@@ -290,6 +290,8 @@ body {
 }
 
 .footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--alt-secondary-color-text);
   text-decoration: none;
 }
@@ -298,7 +300,6 @@ body {
   color: var(--third-color-text);
 }
 .footer .text {
-  margin-top: 17.5px;
   width: 264px;
   color: var(--third-color-text);
 }
