@@ -74,7 +74,7 @@ body {
 }
 
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
   /* align-items: center; */
 }
@@ -89,7 +89,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+  padding: 24px 0;
   gap: 40px;
 }
 
