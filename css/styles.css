@@ -67,7 +67,13 @@ body {
 }
 
 /* Header */
-.header .container {
+/* .header .container {
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+  align-items: center;
+} */
+
+.header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
