@@ -108,7 +108,7 @@ body {
   font-style: normal;
 }
 
-.contact-list .list {
+.contact .list {
   display: flex;
 
   gap: 40px;
