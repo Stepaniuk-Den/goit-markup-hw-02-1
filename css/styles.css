@@ -195,7 +195,7 @@ body {
 }
 
 .section-title {
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
   color: var(--secondary-color-text);
 
   font-weight: 700;
@@ -226,11 +226,10 @@ body {
 .activity .list {
   display: flex;
   gap: 24px;
-  /* width: calc((100% - 72px) / 4); */
 }
 
 .activity .item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .activity .item-text {
@@ -245,10 +244,20 @@ body {
 
 .products.section {
   padding-bottom: 120px;
+  /* display: flex; */
+}
+
+/* .products.container {
+  display: flex; 
+} */
+
+.products .section-title {
+  margin-bottom: 72px;
 }
 
 .products .list {
   display: flex;
+  gap: 24px;
 }
 
 .team {
