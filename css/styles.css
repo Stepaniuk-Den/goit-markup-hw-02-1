@@ -97,6 +97,7 @@ body {
 
 .contact-list .list {
   display: flex;
+
   gap: 40px;
 }
 
@@ -211,6 +212,11 @@ body {
   padding-bottom: 0px;
 }
 
+.activity .list {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
 .activity .list-text {
   width: 264px;
   text-align: left;
@@ -224,10 +230,19 @@ body {
   padding-bottom: 120px;
 }
 
+.products .list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--third-color-text);
+}
+
+.team .list {
+  display: flex;
 }
 
 .personal {
