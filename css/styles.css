@@ -260,6 +260,10 @@ body {
   gap: 24px;
 }
 
+.products .image {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
