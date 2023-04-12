@@ -155,7 +155,7 @@ body {
   text-align: center;
 }
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   color: var(--alt-color);
 
   font-weight: 700;
@@ -168,12 +168,14 @@ body {
 }
 
 .hero .btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: block;
+  min-width: 169px;
+  /* flex-direction: row; */
+  /* align-items: flex-start; */
   padding: 16px 32px;
   gap: 10px;
   border: 0;
+  border-radius: 4px;
 
   margin-top: 48px;
   color: var(--alt-color);
