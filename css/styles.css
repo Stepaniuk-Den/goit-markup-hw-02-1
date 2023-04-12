@@ -30,6 +30,10 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 /* Container */
 .container {
   width: 1158px;
