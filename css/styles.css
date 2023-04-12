@@ -63,6 +63,23 @@ body {
 }
 
 /* Header */
+.header .container {
+  padding: 24px 0;
+}
+
+.container-nav {
+  display: flex;
+}
+
+.nav .list {
+  margin-left: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
 .nav .menu {
   color: var(--secondary-color-text);
   text-decoration: none;
@@ -78,8 +95,9 @@ body {
   font-style: normal;
 }
 
-.contact {
-  font-style: normal;
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -109,6 +127,11 @@ body {
 }
 
 /* Hero */
+.hero .container {
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero {
   padding: 188px 0;
   background-color: var(--secondary-color-text);
@@ -129,6 +152,13 @@ body {
 }
 
 .hero .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  border: 0;
+
   margin-top: 48px;
   color: var(--alt-color);
   background-color: var(--alt-secondary-color-text);
@@ -167,7 +197,6 @@ body {
 }
 
 .section .list-title {
-  text-align: left;
   color: var(--secondary-color-text);
 
   font-weight: 500;
@@ -184,6 +213,10 @@ body {
 
 .activity .list-text {
   width: 264px;
+  text-align: left;
+}
+
+.activity .list-title {
   text-align: left;
 }
 
@@ -231,7 +264,14 @@ body {
 }
 
 /* Portfolio */
+/* Filter */
+.prj .container {
+  justify-content: center;
+  gap: 24px;
+}
+
 .filter {
+  padding: 12px 24px;
   color: var(--alt-secondary-color-text);
   background-color: var(--third-color-text);
   cursor: pointer;
@@ -245,6 +285,7 @@ body {
   /* identical to box height, or 150% */
 
   letter-spacing: 0.04em;
+  border: 0;
 }
 
 .filter:hover,
@@ -253,10 +294,34 @@ body {
   background-color: var(--alt-secondary-color-btn);
 }
 
+.list.projects {
+  margin-top: 72px;
+}
+
+/* List Project */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 24px; */
+  margin-top: -24px;
+  margin-left: -24px;
+}
+
+.card {
+  margin-top: 24px;
+  margin-left: 24px;
+  padding-bottom: 32px;
+  flex-basis: calc(100% / 3 - 48px);
+  text-align: left;
+}
 .list.projects .link,
 .type {
   text-decoration: none;
   color: var(--main-color-text);
 
   letter-spacing: 0.02em;
+}
+
+.prj {
+  padding: 96px 0 120px 0;
 }
