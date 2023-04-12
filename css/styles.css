@@ -68,15 +68,11 @@ body {
 
 /* Header */
 .header .container {
-  /* padding: 24px 0;
-  border-bottom: 1px solid #e7e9fc; */
   align-items: center;
 }
 
 .header {
-  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
-  /* align-items: center; */
 }
 
 .nav {
@@ -85,7 +81,6 @@ body {
 }
 
 .nav .list {
-  /* margin-left: 76px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -170,8 +165,7 @@ body {
 .hero .btn {
   display: block;
   min-width: 169px;
-  /* flex-direction: row; */
-  /* align-items: flex-start; */
+
   padding: 16px 32px;
   gap: 10px;
   border: 0;
@@ -225,8 +219,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.activity .section {
-  padding-bottom: 0px;
+.activity {
+  padding: 120px 0;
 }
 
 .activity .list {
@@ -234,12 +228,12 @@ body {
   /* justify-content: space-between; */
 }
 
-.activity .list-text {
+.activity .item-text {
   width: 264px;
   text-align: left;
 }
 
-.activity .list-title {
+.activity .item-title {
   text-align: left;
 }
 
