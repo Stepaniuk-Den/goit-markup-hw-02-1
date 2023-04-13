@@ -300,6 +300,10 @@ body {
   text-decoration: none;
 }
 
+.logo.link {
+  display: inline-block;
+}
+
 .footer .color {
   color: var(--third-color-text);
 }
