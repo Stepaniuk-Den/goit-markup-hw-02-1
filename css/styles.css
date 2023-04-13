@@ -246,16 +246,7 @@ body {
 
 .products.section {
   padding-bottom: 120px;
-  /* display: flex; */
 }
-
-/* .products.container {
-  flex-direction: column;
-} */
-
-/* .section-title {
-  margin-bottom: 72px;
-} */
 
 .products .list {
   display: flex;
@@ -274,12 +265,17 @@ body {
 
 .team .list {
   display: flex;
+  gap: 24px;
 }
 
 .personal {
-  gap: 24px;
   flex-basis: calc((100% - 72px) / 4);
   background-color: var(--alt-color);
+}
+
+.data {
+  padding: 36px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .prof {
