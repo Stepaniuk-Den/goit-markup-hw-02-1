@@ -195,7 +195,7 @@ body {
 }
 
 .section-title {
-  /* padding-bottom: 72px; */
+  margin-bottom: 72px;
   color: var(--secondary-color-text);
 
   font-weight: 700;
@@ -251,9 +251,9 @@ body {
   flex-direction: column;
 } */
 
-.section-title {
+/* .section-title {
   margin-bottom: 72px;
-}
+} */
 
 .products .list {
   display: flex;
