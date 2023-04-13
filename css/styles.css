@@ -342,13 +342,15 @@ body {
   /* identical to box height, or 150% */
 
   letter-spacing: 0.04em;
-  border: 0;
+  border: 1px solid var(--secondary-color-btn);
+  border-radius: 4px;
 }
 
 .filter:hover,
 .filter:focus {
   color: var(--alt-color);
   background-color: var(--alt-secondary-color-btn);
+  border: 1px transparent;
 }
 
 .list.projects {
