@@ -40,7 +40,7 @@ img {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  /* display: flex; */
   text-align: center;
   justify-content: space-between;
 }
@@ -69,6 +69,7 @@ body {
 /* Header */
 .header .container {
   align-items: center;
+  display: flex;
 }
 
 .header {
@@ -139,6 +140,7 @@ body {
 
 /* Hero */
 .hero .container {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
