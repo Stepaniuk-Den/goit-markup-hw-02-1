@@ -318,8 +318,6 @@ body {
 
 /* Portfolio */
 /* Filter */
-.prj .container {
-}
 
 .prj .list {
   justify-content: center;
@@ -379,6 +377,9 @@ body {
   padding: 32px 16px;
   border: 1px solid var(--secondary-color-btn);
   border-top: none;
+}
+
+.card .list-title {
   margin-bottom: 8px;
 }
 
