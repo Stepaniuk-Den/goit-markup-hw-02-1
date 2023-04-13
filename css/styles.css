@@ -319,7 +319,11 @@ body {
 /* Portfolio */
 /* Filter */
 .prj .container {
+}
+
+.prj .list {
   justify-content: center;
+  display: flex;
   gap: 24px;
 }
 
