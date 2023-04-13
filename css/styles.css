@@ -275,6 +275,8 @@ body {
 }
 
 .personal {
+  gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
   background-color: var(--alt-color);
 }
 
